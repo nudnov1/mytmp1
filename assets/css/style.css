@@ -270,7 +270,7 @@ position: relative;
 }
 
 .about_item:hover .about_img img {
-    opacity: .3;
+    opacity: .2;
 }
 
 .about_img {
