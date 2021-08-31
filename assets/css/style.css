@@ -262,12 +262,13 @@ position: relative;
 /* About */
 
 .about {
+    width: 30%;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
 .about_item {
-    width: 30%;
+    width: 380;
     position: relative;
 
     background-color: #98d29f;
