@@ -267,14 +267,20 @@ position: relative;
 }
 .about_item {
     width: 380;
-}
 
+    background-color: #98d29f;
+}
+.about_item:hover .about_img {
+    transform: translate3d(-10px, -10px, 0);
+}
 .about_item:hover .about_img img {
     opacity: .2;
 }
 
 .about_img {
     background: linear-gradient(to bottom, #f38181, #fce38a);
+
+    transition: transform .2s linear;
 }
 .about_img img {
     display: block;
