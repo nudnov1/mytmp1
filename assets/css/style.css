@@ -259,7 +259,8 @@ position: relative;
 /**/
 /**/
 
-/*about*/
+/* About */
+
 .about {
     display: flex;
     justify-content: space-between;
@@ -268,5 +269,15 @@ position: relative;
     width: 30%;
 }
 
+.about_item:hover .about_img img {
+    opacity: .7;
+}
+
+.about_img {
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+.about_img img {
+    transition: opacity .1s linear;
+}
 /**/
 /**/
