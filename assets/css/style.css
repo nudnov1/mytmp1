@@ -262,7 +262,6 @@ position: relative;
 /* About */
 
 .about {
-    width: 30%;
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
