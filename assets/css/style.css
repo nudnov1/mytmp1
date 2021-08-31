@@ -266,17 +266,18 @@ position: relative;
     justify-content: space-between;
 }
 .about_item {
-    width: 30%;
+    width: 380;
 }
 
 .about_item:hover .about_img img {
-    opacity: .7;
+    opacity: .3;
 }
 
 .about_img {
     background: linear-gradient(to bottom, #f38181, #fce38a);
 }
 .about_img img {
+    display: block;
     transition: opacity .1s linear;
 }
 /**/
