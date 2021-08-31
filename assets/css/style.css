@@ -245,7 +245,7 @@ position: relative;
 .section_title:after {
     content: "";
     display: block;
-    width: 60px;
+    width: 160px;
     height: 3px;
     margin: 30px auto;
 
@@ -262,12 +262,15 @@ position: relative;
 /* About */
 
 .about {
+    
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
+
+    
 }
 .about_item {
-    width: 380;
+    width: 30%;
     position: relative;
 
     background-color: #98d29f;
@@ -284,6 +287,7 @@ position: relative;
 }
 
 .about_img {
+    width: 30%;
     background: linear-gradient(to bottom, #f38181, #fce38a);
 
     transition: transform .2s linear;
