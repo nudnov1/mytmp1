@@ -15,6 +15,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+
+    border: 0;
+    background-color: #e5e5e5;
+
+}
+
 /*container*/
 .container {
     width: 100%;
@@ -224,10 +236,21 @@ position: relative;
     padding: 80px 0;
 }
 
+.section--devices {
+    padding-bottom: 0;
+
+    background:
+    url("../images/device_bg.png")
+    center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
 .section_header {
     width: 100%;
     max-width: 950px;
-    margin: 0 auto 40px;
+    margin: 0 auto 50px;
 
     text-align: center;
 }
@@ -351,12 +374,13 @@ position: relative;
 .services_item {
     flex: 1 1 0;
     padding-left: 90px;
+    padding-right: 35px;
     position: relative;
 }
 .services_icon {
     position: absolute;
     top: 0%;
-    left: 30px;
+    left: 28px;
     z-index: 1;
 }
 .services_title {
@@ -371,6 +395,22 @@ margin-bottom: 10px;
     color: #333;
 }
 
-/**/
-/**/
+/* Devices */
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.devices_item {
+    display: block;
+}
+/*
+.devices_item--iphone {
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    z-index: 1;
+}
+*/
 /**/
