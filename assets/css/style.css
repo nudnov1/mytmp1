@@ -237,7 +237,7 @@ position: relative;
 }
 
 .section--devices {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     padding-bottom: 0;
 
     background:
@@ -422,7 +422,9 @@ margin-bottom: 10px;
 }
 .wedo_item {
     width: 50%;
-
 }
-/**/
-/**/
+/*accordion*/
+.accordion_item  {
+border: 1px solid #929292;
+}
+
