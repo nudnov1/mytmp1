@@ -426,15 +426,34 @@ margin-bottom: 10px;
 /*Accordion*/
 
 .accordion_item  {
-    border: 1px solid #818181;
+    border: 1px solid #b9b8b8;
 }
 
 .accordion_header {
     padding: 15px 20px 15px 60px;
     position: relative;
 
-    border: 1px solid #818181;
+    border: 1px solid #b9b8b8;
 }
+.accordion_header::after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+
+    border-top: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 1;
+
+    transform: translateY(-50%)
+    rotate(-45deg);
+
+}
+
 .accordion_icom {
     position: absolute;
     top: 50%;
