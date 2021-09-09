@@ -388,7 +388,7 @@ position: relative;
 margin-bottom: 10px;
 
     font-style: 14px;
-    color: #333;
+    color: rgb(201, 201, 201);
     text-transform: uppercase;
 }
 .services_text {
@@ -426,14 +426,23 @@ margin-bottom: 10px;
 /*Accordion*/
 
 .accordion_item  {
-    border: 1px solid #b9b8b8;
+    border: 1px solid #b9b8b89f;
+}
+
+.accordion_item:active 
+.accordion_content {
+    display: block;
+}
+.accordion_item:active
+.accordion_header:after {
+    transform: translateY(-50%);
 }
 
 .accordion_header {
     padding: 15px 20px 15px 60px;
     position: relative;
 
-    border: 1px solid #b9b8b8;
+    border: 1px solid rgba(236, 234, 234, 0.308);
 }
 .accordion_header::after {
     content: "";
@@ -450,7 +459,7 @@ margin-bottom: 10px;
     z-index: 1;
 
     transform: translateY(-50%)
-    rotate(-45deg);
+    rotate(135deg);
 
 }
 
@@ -466,6 +475,7 @@ margin-bottom: 10px;
 
 .accordion_content {
     padding: 15px 20px 20px; 
+    display: none;
 
     font-size: 15px;
     color: #999;
