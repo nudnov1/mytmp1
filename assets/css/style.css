@@ -426,16 +426,18 @@ margin-bottom: 10px;
 /*Accordion*/
 
 .accordion_item  {
+    margin-bottom: 10px;
     border: 1px solid #b9b8b89f;
 }
 
-.accordion_item:active 
+.accordion_item.active 
 .accordion_content {
     display: block;
 }
-.accordion_item:active
-.accordion_header:after {
-    transform: translateY(-50%);
+
+.accordion_header {
+    border: 1px solid 
+    transparent;
 }
 
 .accordion_header {
@@ -470,7 +472,6 @@ margin-bottom: 10px;
     z-index: 1;
 
     transform: translateY(-50%);
-    
 }
 
 .accordion_content {
